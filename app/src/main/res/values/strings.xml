@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KMPA · Private Activity</string>
+
+    <string name="brand">KMPA</string>
+    <string name="title">Private Activity Launcher</string>
+    <string name="subtitle">Launch app activities with Shizuku, including some activities that are not exported.</string>
+
+    <string name="connection_title">Connection</string>
+    <string name="status_checking">Checking Shizuku…</string>
+    <string name="check_grant_permission">Check / grant permission</string>
+
+    <string name="target_title">Target activity</string>
+    <string name="target_description">Choose an installed app or enter the component manually.</string>
+    <string name="hint_package">Package name · e.g. com.android.settings</string>
+    <string name="hint_class">Activity class · full class name</string>
+    <string name="browse_apps">Browse installed apps</string>
+    <string name="launch_activity">Launch activity</string>
+
+    <string name="key_mapper_title">Key Mapper integration</string>
+    <string name="key_mapper_description">Use a Broadcast receiver Intent action in Key Mapper. This companion and Shizuku must remain available.</string>
+    <string name="show_setup_instructions">Show setup instructions</string>
+
+    <string name="disclaimer">Heads-up: Android and device manufacturers may block private activity launches. This is a best-effort utility, not a guaranteed bypass.</string>
+
+    <string name="copy">Copy</string>
+    <string name="copied_format">Copied: %1$s</string>
+    <string name="label_action_name">Action name</string>
+    <string name="label_package">Package</string>
+
+    <string name="status_format">Shizuku: %1$s\nPermission: %2$s</string>
+    <string name="shizuku_running">running</string>
+    <string name="shizuku_not_running">not running</string>
+    <string name="permission_granted">granted</string>
+    <string name="permission_not_granted">not granted</string>
+
+    <string name="extras_title">Target activity extras</string>
+    <string name="extras_description">In Key Mapper, add these two String extras under \"Extras\":</string>
+    <string name="label_extra1_key">Extra 1 · Key</string>
+    <string name="label_extra1_value">Extra 1 · Value (package name)</string>
+    <string name="label_extra2_key">Extra 2 · Key</string>
+    <string name="label_extra2_value">Extra 2 · Value (activity class)</string>
+</resources>
